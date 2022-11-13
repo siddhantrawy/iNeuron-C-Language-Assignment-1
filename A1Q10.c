@@ -1,0 +1,15 @@
+// Write a program to take date as an input in below given format and convert the date format and display the result as given below.
+// User Input date format – “DD/MM/YYYY” (27/11/2022)
+// Output format – “Day – DD , Month – MM , Year – YYYY” (Day – 27 ,Month – 11 , Year – 2022)
+
+#include<stdio.h>
+
+int main()
+{
+    int a, b, c;
+    printf("Enter date in format DD/MM/YYYY : ");
+    scanf("%d/%d/%d",&a,&b,&c);
+    printf("Day - %d , Month - %d , Year - %d",a,b,c);
+    
+    return 0;
+}
